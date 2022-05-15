@@ -1,0 +1,25 @@
+.affairContainer {
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 200px;
+}
+.btn {
+    margin-top: 10px;
+    color: antiquewhite;
+
+}
+.name {
+    font-size: 25px;
+    margin-top: 5px;
+    color: antiquewhite;
+}
+.item {
+    margin-top: 5px;
+    font-size: 25px;
+    color: antiquewhite;
+}
+.title {
+    font-size: 25px;
+    color: antiquewhite;
+}
