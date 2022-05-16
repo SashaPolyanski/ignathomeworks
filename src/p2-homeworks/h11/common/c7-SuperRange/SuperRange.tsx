@@ -8,10 +8,11 @@ type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElem
 // (чтоб не писать value: string, onChange: ...; они уже все описаны в DefaultInputPropsType)
 type SuperRangePropsType = DefaultInputPropsType & { // и + ещё пропсы которых нет в стандартном инпуте
     onChangeRange?: (value: number) => void
+    setValue:Function
 };
 
 const SuperRange: React.FC<SuperRangePropsType> = (
-    {
+    {setValue,
         type, // достаём и игнорируем чтоб нельзя было задать другой тип инпута
         onChange, onChangeRange,
         className,
@@ -23,6 +24,7 @@ const SuperRange: React.FC<SuperRangePropsType> = (
         onChange && onChange(e) // сохраняем старую функциональность
 
         onChangeRange && onChangeRange(+e.currentTarget.value)
+        setValue(+e.currentTarget.value)
     }
 
     const finalRangeClassName = `${s.range} ${className ? className : ''}`
