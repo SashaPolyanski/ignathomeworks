@@ -1,0 +1,19 @@
+.title {
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testSpanError {
+    color: blue;
+}
+.className {
+    background-color: red;
+}

@@ -1,0 +1,41 @@
+.someClass {
+
+}
+
+.errorMessage {
+    color: antiquewhite;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.error {
+
+    background-color: red;
+    color: #61dafb;
+    margin-right: 20px;
+    margin-top: 13px;
+
+
+}
+
+.input {
+    background-color: #282c34;
+    color: antiquewhite;
+    margin-right: 20px;
+    margin-top: 13px;
+}
+
+.container {
+    margin-left: 200px;
+}
+
+.totalUsers {
+    margin-top: 5px;
+    font-size: 25px;
+    color: antiquewhite;
+    margin-left: 30px;
+}
+.btn {
+    margin-bottom: 80px;
+}

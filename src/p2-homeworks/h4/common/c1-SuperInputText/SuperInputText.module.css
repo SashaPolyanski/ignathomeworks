@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Permanent+Marker&display=swap');
+
+
+.input {
+    background: antiquewhite;
+    font-size: 20px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+}
+
+
+.errorInput {
+    background: antiquewhite;
+    font-size: 20px;
+    height: 30px;
+    border-radius: 20px;
+    border: 3px solid red;
+}
+.superInput:focus {
+    opacity: 1;
+
+}
+
+
+.error {
+    color: red;
+    font-size: 40px;
+    font-family: 'Marck Script', cursive;
+    font-weight: 400;
+
+}

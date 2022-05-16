@@ -1,0 +1,21 @@
+.description {
+    color: antiquewhite;
+    margin-left: 200px;
+    display: grid;
+    width: 300px;
+    grid-template-columns: 1fr 1fr;
+}
+.itemAge {
+    margin-left: 20px;
+}
+.allBtn {
+    margin-top: 20px;
+    margin-left: 100px;
+    display: grid;
+    width: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.title {
+    font-size: 30px;
+    color: antiquewhite;
+}

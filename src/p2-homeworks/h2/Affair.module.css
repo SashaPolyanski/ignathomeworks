@@ -1,4 +1,10 @@
+
+.container {
+    padding-top: 60px;
+}
+
 .affairContainer {
+
     width: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

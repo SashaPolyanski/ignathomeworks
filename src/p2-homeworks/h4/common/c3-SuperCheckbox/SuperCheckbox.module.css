@@ -1,0 +1,16 @@
+/*.checkbox {*/
+/*appearance: none;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    background-color: red;*/
+/*}*/
+/*.checkbox:checked {*/
+/*    appearance: none;*/
+/*    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQUNpkjvwNhyiBW4-BRgKeqYJvfwHX6Jdhsg&usqp=CAU');*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*}*/
+
+.spanClassName {
+    color: antiquewhite;
+}

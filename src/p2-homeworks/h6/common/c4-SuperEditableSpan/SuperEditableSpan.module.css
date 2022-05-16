@@ -1,0 +1,12 @@
+.span {
+
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    font-size: 35px;
+    padding: 5px 30px;
+}
+.inp {
+    display: flex;
+    justify-content: center;
+}
