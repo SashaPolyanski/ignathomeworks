@@ -3,8 +3,7 @@ import s from "./HW12.module.css";
 import SuperRadio from "../h7/common/c6-SuperRadio/SuperRadio";
 import {useDispatch, useSelector} from "react-redux";
 import {AppStoreType} from "../h10/bll/store";
-import {initType, switchTheme, themeType} from "../h10/bll/switchThemeReducer";
-
+import {switchTheme, themeType} from "../h10/bll/switchThemeReducer";
 
 
 function HW12() {
@@ -16,23 +15,27 @@ function HW12() {
     }
 
 
-
     return (
-        <div className={s[theme]}>
-            <hr/>
+        <div className={s.container}>
             <span className={s[theme + '-text']}>
                 homeworks 12
             </span>
+            <div className={s[theme]}>
+                <hr/>
 
-            {/*should work (должно работать)*/}
-            <SuperRadio
-                options={themeValue}
-                value={theme}
-                onChangeOption={onChangeOption}
-            />
 
-            <hr/>
+                {/*should work (должно работать)*/}
+                <SuperRadio
+                    options={themeValue}
+                    value={theme}
+                    onChangeOption={onChangeOption}
+                />
+
+                <hr/>
+                <span className={s.switch}>switch theme</span>
+            </div>
         </div>
+
     );
 }
 

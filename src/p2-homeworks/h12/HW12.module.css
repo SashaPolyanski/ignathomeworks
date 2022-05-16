@@ -1,23 +1,41 @@
+.container {
+    padding-bottom: 50px;
+}
+
 .dark {
     background: dimgrey;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+
 }
 
 .dark-text {
     color: aliceblue;
+    font-size: 30px;
+
 }
 
 .red {
     background: lightcoral;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
 }
 
 .red-text {
     color: aqua;
+    font-size: 30px;
 }
 
 .some {
     background: lightgreen;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
 }
 
 .some-text {
     color: darkslateblue;
+    font-size: 30px;
 }
