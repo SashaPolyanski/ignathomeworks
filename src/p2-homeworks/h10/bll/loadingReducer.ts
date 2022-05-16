@@ -1,11 +1,12 @@
-import {AppStoreType} from "./store";
 export type initType = {
     loading: boolean
-}
 
+}
+// type themeType = 'dark'| 'red'| 'some'
 
 const initState: initType = {
-    loading: false
+    loading: false,
+
 }
 
 export const loadingReducer = (state = initState, action: ActionsType):initType => { // fix any
@@ -14,6 +15,7 @@ export const loadingReducer = (state = initState, action: ActionsType):initType 
 
             return {...state, loading: action.isLoading}
         }
+
         default:
             return state
     }

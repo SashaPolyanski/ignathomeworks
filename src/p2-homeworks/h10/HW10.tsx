@@ -2,7 +2,7 @@ import React from 'react'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import {useDispatch, useSelector} from "react-redux";
 import {AppStoreType} from "./bll/store";
-import {loadingAC} from "./bll/loadingReducer";
+import {initType, loadingAC} from "./bll/loadingReducer";
 import {CircularProgress} from "@mui/material";
 import s from './HW10.module.css'
 
